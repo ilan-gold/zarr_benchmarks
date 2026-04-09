@@ -31,16 +31,16 @@ def main():
         "zarrs_rust",
         # "zarrs_rust_async_as_sync",
         # "zarrs_rust_async",
-        "tensorstore_python",
+        # "tensorstore_python",
         "zarr_python",
         "zarrs_python",
-        "zarr_dask_python",
-        "zarrs_dask_python",
+        # "zarr_dask_python",
+        # "zarrs_dask_python",
     ]
 
     images = [
-        "data/benchmark.zarr",
-        "data/benchmark_compress.zarr",
+        # "data/benchmark.zarr",
+        # "data/benchmark_compress.zarr",
         "data/benchmark_compress_shard.zarr",
     ]
 

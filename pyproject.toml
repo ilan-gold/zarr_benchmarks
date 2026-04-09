@@ -17,8 +17,8 @@ dependencies = [
     "dask==2025.11.0", # FIXME: 2025.12.0 is slower, investigate
     "xarray==2025.12.0",
     # "xarray-tensorstore==0.1.5",
-    "zarr==3.1.5",
-    "zarrs @ file:///home/ljd/dev/zarrs-python",
+    "zarr@git+https://github.com/d-v-b/zarr-python.git@perf/prepared-write-v2",
+    "zarrs",
     "pandas==2.3.3",
     "tabulate==0.9.0",
     "tensorstore==0.1.80",
